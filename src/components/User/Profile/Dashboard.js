@@ -18,7 +18,7 @@ const Dashboard = (props) => {
                             {/* <Route path="/" component={SideNav} /> */}
                             <Route path="/" render={() => <SideNav url={`${pathname}`} />} />
                         </div>
-                        <div className="col-lg-9 col-md-12 col-sm-12 col-pad">
+                        <div className="col-lg-9 col-md-12 col-sm-12 sticky-top col-pad">
                              {/* <Route to="/" component={Content}/>  */}
                             <Route path="/" render={() => <Content url={`${pathname}`} />} />
                         </div>
