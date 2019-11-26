@@ -1,11 +1,31 @@
-import React,{Component} from 'react'
-
-class LoginNav extends Component{
-    render(){
+import React, { Component } from 'react'
+import Logo from '../../../logo.png';
+import './style.css'
+import { NavLink } from 'react-router-dom';
+class LoginNav extends Component {
+    render() {
         return (
-        <div className="navbar login-nav align-content-between">
-            Hvfhsvdhasvhv
-        </div>
+            <nav className="navbar navbar-expand-lg login-nav container-fluid bg-light justify-content-between h6">
+                
+                <NavLink to="/" className="text-dark">
+                    <img src={Logo} className="navbar-brand nav-logo logofont" alt="Gymiz" />
+                    GymIZ
+                </NavLink>
+                <div className="" id="navbarSupportedContent">
+                    <ul className="navbar-nav header-ml">
+                        <li className="nav-item dropdown">
+                            <div className="nav-link">
+                                Vendor Login
+                        </div>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <div className="nav-link ">
+                                Admin Login
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         )
     }
 }

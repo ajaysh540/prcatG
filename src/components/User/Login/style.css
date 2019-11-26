@@ -151,3 +151,16 @@ outline: none;
   font-weight: 500;
   border-radius: 4px;
 }
+.login-nav{
+  opacity: 0.3;
+  align-content: flex-end !important;
+}
+
+.login-nav:hover{
+opacity: 1;
+}
+.nav-logo{
+  height: 35px;
+  width: 35px;  
+}
+

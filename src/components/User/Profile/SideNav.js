@@ -20,7 +20,7 @@ class SideNav extends Component {
 
   render() {
     return (
-                <div className="dashboard-nav d-xl-block d-lg-block">
+                <div className="dashboard-nav d-xl-block rounded d-lg-block">
 
                     <div className="dashboard-inner">
                         <h4>Main</h4>

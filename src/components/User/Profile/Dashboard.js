@@ -14,7 +14,7 @@ const Dashboard = (props) => {
                 <div className="row">
                     <Router>
                         
-                        <div className="col-lg-3 col-md-12 col-sm-12 p-1 sideNav sticky-top">
+                        <div className="col-lg-3 col-md-12 col-sm-12 p-1 sideNav rounded sticky-top">
                             {/* <Route path="/" component={SideNav} /> */}
                             <Route path="/" render={() => <SideNav url={`${pathname}`} />} />
                         </div>

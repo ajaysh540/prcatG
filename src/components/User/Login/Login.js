@@ -4,7 +4,7 @@ import { ACCESS_TOKEN } from '../../Constants';
 import Logo  from '../../../logo.png';
 import './style.css';
 import 'antd/dist/antd.css';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import LoginNav from './LoginNav'
 import { Form, Input, Button, Icon, notification, Checkbox } from 'antd';
 const FormItem = Form.Item;
@@ -16,8 +16,8 @@ class Login extends Component {
         return (
           <div className="contact-section overview-bgi">
               <LoginNav/>
-          <div className="container">
-              <div className="row">
+          <div className="container p-5">
+              <div className="row p-5">
                   <div className="col-lg-12">
                       <div className="form-content-box">
                           <div className="details">
@@ -30,10 +30,10 @@ class Login extends Component {
                                 <li><a href="#" className="google-bg"><i className="fa fa-google-plus"></i></a></li>
                                 <li><a href="#" className="linkedin-bg"><i className="fa fa-linkedin"></i></a></li>
                               </ul>
+                          </div>
                               <div className="footer">
                                   <span>Don't have an account? <NavLink to='/signup'>Register here </NavLink></span>
                               </div>
-                          </div>
                       </div>
                   
                   </div>
