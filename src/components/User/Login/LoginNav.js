@@ -7,7 +7,7 @@ class LoginNav extends Component {
         return (
             <nav className="navbar navbar-expand-lg login-nav container-fluid bg-light justify-content-between h6">
                 
-                <NavLink to="/" className="text-dark">
+                <NavLink to="/" className="text-dark logofont">
                     <img src={Logo} className="navbar-brand nav-logo logofont" alt="Gymiz" />
                     GymIZ
                 </NavLink>

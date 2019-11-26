@@ -163,4 +163,11 @@ opacity: 1;
   height: 35px;
   width: 35px;  
 }
+.logofont{
+  font-family: 'Audiowide', sans-serif;
+  font-size: 30px;
+  color: #0D0063;
+ text-decoration: none;
+
+}
 
