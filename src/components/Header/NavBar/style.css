@@ -52,7 +52,7 @@ img.logo{
     font-weight: 500;
     color: #515151;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 .main-header .navbar-expand-lg .navbar-nav .nav-link i{
@@ -177,7 +177,7 @@ img.logo{
 /** Bootstrap select start **/
 .bootstrap-select {
     width: 100% !important;
-    font-family: 'Raleway', sans-serif;
+   
 }
 
 .bootstrap-select button {

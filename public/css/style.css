@@ -31,13 +31,14 @@ html, body {
     height: 100%;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
+*{
+    font-family: 'Raleway', sans-serif !important;   
 }
 
 a {
     cursor: pointer;
     color: #4d4d4d;
+    font-family: 'Raleway', sans-serif;
 }
 
 a:hover {
@@ -61,7 +62,7 @@ span {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #4d4d4d;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 ul {
@@ -84,7 +85,9 @@ ul {
 .twitter:hover {
     color: #56d7fe !important;
 }
-
+div{
+    font-family: 'Raleway', sans-serif !important;
+}
 .google:hover {
     color: #dc4e41 !important;
 }
@@ -705,7 +708,7 @@ input[type=checkbox]:checked + label:before {
     font-weight: 500;
     color: #515151;
     letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .main-header .navbar-expand-lg .navbar-nav .nav-link i{
@@ -853,7 +856,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .banner {
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .banner img{
@@ -1085,7 +1088,7 @@ input[type=checkbox]:checked + label:before {
     color: #fff;
     margin: 0 0 50px;
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 /** Search start **/
@@ -1130,7 +1133,8 @@ input[type=checkbox]:checked + label:before {
 
 .show-search-area {
     z-index: 9999;
-. search-contents transition: all 0.4 s;
+}
+ .search-contents {transition: all 0.4 s;
     display: block;
 }
 
@@ -1577,7 +1581,7 @@ input[type=checkbox]:checked + label:before {
 /** Bootstrap select start **/
 .bootstrap-select {
     width: 100% !important;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .bootstrap-select button {
@@ -1730,7 +1734,7 @@ input[type=checkbox]:checked + label:before {
 
 /** listing item box  start **/
 .listing-item-box  {
-    font-family: 'Raleway', sans-serif;
+    
     position: relative;
     margin-bottom: 30px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
@@ -2052,7 +2056,7 @@ input[type=checkbox]:checked + label:before {
     margin: 0 0 12px;
     font-size: 15px;
     font-weight: 500;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .listing-item-box-2 .detail .location a {
@@ -3480,7 +3484,7 @@ footer {
 
 .sorting-options2 .bootstrap-select{
     width: 200px !important;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .sorting-options2 .search-fields {

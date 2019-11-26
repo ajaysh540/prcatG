@@ -4,7 +4,6 @@
   margin: 0 auto;
   margin: 0 auto;
   margin-top: 40px;
-  font-family: 'Raleway', sans-serif;
 }
 
 .login-form-button {
@@ -171,3 +170,7 @@ opacity: 1;
 
 }
 
+.font{
+
+  color: red !important;
+}
