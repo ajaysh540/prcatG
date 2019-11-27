@@ -3,7 +3,7 @@ import PlayStore from '../../../assets/images/google-play-badge/128x128.png'
 import AppStore from '../../../assets/images/app-store-badge/128x128.png'
 import '../style.css'
 import SubFooter from '../SubFooter/subfooter';
-
+import gPlay from '../../../assets/images/google-play-badge/google-play-badge.svg'
 class Footer extends Component {
   render() {
     return (
@@ -15,7 +15,7 @@ class Footer extends Component {
                     <p>Download GYMIZ app for exciting offers.</p>
                         <img src={PlayStore} alt="playstore" />
                         <img src={AppStore} alt="appstore" />
-                    
+                        {/* <img src={gPlay}/> */}
                 </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
