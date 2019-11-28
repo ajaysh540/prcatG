@@ -3,7 +3,7 @@ import PlayStore from '../../../assets/images/google-play-badge/128x128.png'
 import AppStore from '../../../assets/images/app-store-badge/128x128.png'
 import '../style.css'
 import SubFooter from '../SubFooter/subfooter';
-import gPlay from '../../../assets/images/google-play-badge/google-play-badge.svg'
+// import gPlay from '../../../assets/images/google-play-badge/google-play-badge.svg'
 class Footer extends Component {
   render() {
     return (

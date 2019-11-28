@@ -170,7 +170,6 @@ opacity: 1;
 
 }
 
-.font{
-
-  color: red !important;
+.logofont:hover{
+  text-decoration: none;
 }

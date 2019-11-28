@@ -5431,6 +5431,10 @@ footer {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+@media (max-width: 990px){
+.sticky-top{
+    position: relative !important; 
+}}
 .editProfile {
     padding-top:60px;
 }

@@ -14,11 +14,11 @@ const Dashboard = (props) => {
                 <div className="row">
                     <Router>
                         
-                        <div className="col-lg-3 col-md-12 col-sm-12 p-1 sideNav rounded sticky-top">
+                        <div className="col-lg-3 col-md-12 col-sm-12 p-1 sideNav navbar-expand-lg sticky-top rounded">
                             {/* <Route path="/" component={SideNav} /> */}
                             <Route path="/" render={() => <SideNav url={`${pathname}`} />} />
                         </div>
-                        <div className="col-lg-9 col-md-12 col-sm-12 sticky-top col-pad">
+                        <div className="col-lg-9 col-md-12 col-sm-12 col-pad">
                              {/* <Route to="/" component={Content}/>  */}
                             <Route path="/" render={() => <Content url={`${pathname}`} />} />
                         </div>
