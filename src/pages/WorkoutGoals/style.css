@@ -1,0 +1,22 @@
+.goals label:hover{
+    cursor: pointer;
+}
+.goals:hover{
+    cursor: pointer;
+}
+.goalinfo{
+    width:100%;
+    height: 100%;
+    font-size: 50px;
+    z-index:10000;
+    left: 0;
+    top:0;
+    float: left;
+    overflow: scroll;
+}
+.goal-details{
+    display: none;
+}
+.goals:hover .goal-details{
+    display: block;
+}

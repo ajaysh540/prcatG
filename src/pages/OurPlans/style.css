@@ -1,0 +1,36 @@
+.plans-head{
+    background-color: black !important;
+    display: flex;
+    color: white;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    justify-content: space-between !important;
+    align-content: space-between !important;
+}
+.plans-head ul{
+ list-style: disc;
+ margin-left: 1em;
+}
+.plans:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+.plan-details{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.input-plan:hover{
+    cursor: pointer;
+}
+.selectedPlan{
+    background-color: blue  !important;
+    color: white !important;
+}
+.input-plan:checked{
+background-color:blue !important;
+color: white !important;
+}
+.pre-scrollable{
+    max-height:550px !important;
+}

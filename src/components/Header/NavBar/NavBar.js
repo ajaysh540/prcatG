@@ -56,9 +56,10 @@ class NavBar extends Component {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-          
-                <img src={Logo} className="navbar-brand logo logofont" alt="Gymiz" />
-            <a className="logofont" href="index.html" >GymIZ</a>
+                <img src={Logo} className="navbar-brand logo" alt="Gymiz" />
+          <NavLink to="/" className="logofont">
+          GymIZ
+           </NavLink>
             
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav header-ml">

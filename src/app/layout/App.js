@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch, withRouter, BrowserRouter as Router } from 'react-router-dom';
 import { notification } from 'antd';
 //import logo from '../../../src/logo.svg';
-
+import OurPlans from'../../pages/OurPlans/OurPlans'
 import { getCurrentUser } from '../../components/Utils/APICalls';
 import { ACCESS_TOKEN } from '../../components/Constants';
 import HomePage from '../../pages/Home/HomePage';
@@ -120,6 +120,7 @@ class App extends React.Component {
                     <Route path="user/manageAddress" component={ManageAddress} />
                     <Route path="/resetPassword" component={ResetPswd} />
                     <Route path="/404" component={PageNotFound} />
+                    <Route path="/ourplans" component={OurPlans} />
                   </Switch>
                   <Footer />
                 </div>
