@@ -21,7 +21,7 @@ componentDidMount(){
   render() {
     return (
       <div className="content-area5 dashboard-content">
-      <div className="content-scroll">
+      <div>
         <Switch>
           <Route exact path={`${this.state.url}`} render={()=><Redirect to={`${this.state.url}/profile`}/>}/>
           <Route path={`${this.state.url}/profile`} component={Profile} />
