@@ -12,25 +12,24 @@
  margin-left: 1em;
 }
 .plans:hover{
-    background-color: blue;
+    background-color: #f0151f;
     cursor: pointer;
     color: white;
 }
-.plan-details{
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+.border-plans{
+    border: 1px solid #f0151f !important;
 }
 .input-plan:hover{
     cursor: pointer;
 }
 .selectedPlan{
-    background-color: blue  !important;
+    background-color: #f0151f  !important;
     color: white !important;
 }
 .input-plan:checked{
-background-color:blue !important;
+background-color:#f0151f !important;
 color: white !important;
 }
 .pre-scrollable{
-    max-height:550px !important;
+    max-height:560px !important;
 }

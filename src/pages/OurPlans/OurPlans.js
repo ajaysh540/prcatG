@@ -35,17 +35,17 @@ class OurPlans extends Component {
                     </ul>
                 </div>
             </div>
-            <div className="text-center plan-details text-center row">
-                <div className="shadow m-2 col-lg-3 col-10 offset-lg-0 offset-1 text-left h4">
+            <div className="text-center plan-details m-4 bg-white text-center row">
+                <div className="shadow col-lg-3 col-10 mr-lg-4 offset-lg-0 offset-1 text-left h4">
                     <label className="mt-3">Choose Plan</label>
                     <div className="container p-2">
-                        <div className="border border-primary plans shadow jumbotron" id="plan1" onClick={this.planSelected}>Plan 1</div>
-                        <div className="border border-primary plans shadow jumbotron" id="plan2" onClick={this.planSelected}>Plan 2</div>
-                        <div className="border border-primary plans shadow jumbotron" id="plan3" onClick={this.planSelected}>Plan 3</div>
+                        <div className="border-plans plans shadow jumbotron" id="plan1" onClick={this.planSelected}>Plan 1</div>
+                        <div className="border-plans plans shadow jumbotron" id="plan2" onClick={this.planSelected}>Plan 2</div>
+                        <div className="border-plans plans shadow jumbotron" id="plan3" onClick={this.planSelected}>Plan 3</div>
                     </div>
                 </div>
                 
-                    {this.state.planDetails===""?<div className="col-6  text-center h2">Select a Plan</div>:""}
+                    {this.state.planDetails===""?<div className="col-8 text-center h2">Select a Plan</div>:""}
                     {this.state.planDetails==="plan1"?<Plan1/>:""}
                     {this.state.planDetails==="plan3"?<Plan3/>:""}
                     {this.state.planDetails==="plan2"?<Plan2/>:""}

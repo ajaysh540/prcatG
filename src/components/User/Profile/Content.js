@@ -5,7 +5,7 @@ import ManageAddress from './Account/ManageAddress';
 import ResetPswd from './Account/ResetPswd';
 import { Route, Switch,Redirect} from 'react-router-dom'
 import WorkoutGoals from '../../../pages/WorkoutGoals/WorkoutGoals';
-
+import HealthReport from '../HealthReport/HealthReport'
 class Content extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +30,7 @@ componentDidMount(){
           <Route path={`${this.state.url}/dashboard`} component={ResetPswd} />
           <Route path={`${this.state.url}/notification`} component={ResetPswd} />
           <Route path={`${this.state.url}/membership`} component={ResetPswd} />
-          <Route path={`${this.state.url}/health-report`} component={ResetPswd} />
+          <Route path={`${this.state.url}/health-report`} component={HealthReport} />
           <Route path={`${this.state.url}/workout-goals`} component={WorkoutGoals} />
           <Route path={`${this.state.url}/workout-history`} component={ResetPswd} />
         </Switch>
